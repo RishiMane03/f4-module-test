@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outerShell{
+    display: flex;
+}
+
+.left{
+    padding-left: 20px;
+    padding-top: 40px;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 50vw;
+}
+
+#spanIP{
+    color: white;
+}
+
+.left h1{
+    color: #575A85;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left p{
+    width: 630px;
+    color: #B8BCCC;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.left img{
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+#right{
+    background: #575A85;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ipAddress{
+    color: #B8BCCC;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.getStart{
+    border-radius: 10px;
+    border: 2px solid #B8BCCC;
+    width: 300px;
+    height: 60px;
+    background: transparent;
+    color: #B8BCCC;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+}
+
+.getStart:hover{
+    cursor: pointer;
+    color: snow;
+    box-shadow: 0px 0px 10px snow;
+}
+
+.spanIP{
+    color: white;
+}
+
+/* 2nd Page */
+#ipInfo{
+    background-color: black;
+    color: rgb(176, 174, 174);
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#ipInfo span{
+    color: white;
+}
+
+.information{
+    display: flex;
+    gap: 20px;
+    width: 1300px;
+    justify-content: space-between;
+}
+.information p{
+    margin-top: 20px;
+}
+
+#map{
+    padding: 50px 0px;
+    background: #575A85;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#map h2{
+    color: #B8BCCC;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    margin-bottom: 25px;
+    margin-top: -10px;
+}
+
+#search{
+    padding: 40px 35px;
+    background-color: black;
+    color: rgb(211, 207, 207);
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#search h3{
+    color: #B8BCCC;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+}
+
+#detail{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.searchBar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid #575A85;
+    padding: 10px;
+}
+input{
+    width: 1200px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 24px;
+    color: white;
+}
+
+.card{
+    border-radius: 10px;
+    background: #575A85;
+    width: 550px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #d6d8e1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+#allCards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#searchNcard{
+    padding: 40px 35px;
+    background-color: black;
+    color: rgba(184, 188, 204, 0.50);
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#searchNcard h3{
+    color: #B8BCCC;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+}
